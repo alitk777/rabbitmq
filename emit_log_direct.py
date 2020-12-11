@@ -17,3 +17,4 @@ channel.basic_publish(
 )
 print(" [x] Sent %r:%r" % (severity, message))
 connection.close()
+
